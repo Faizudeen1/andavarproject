@@ -1,0 +1,313 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+cursor:pointer;
+font-family:sans-serif;
+}
+.layout
+{
+border: 2px hidden black;
+ margin: auto;
+  width: 1345px;
+padding:0px;
+}
+body{
+	width:100%;
+}
+header{
+	text-align:center;
+	color:white;
+	background-image: url('https://t4.ftcdn.net/jpg/04/95/28/65/360_F_495286577_rpsT2Shmr6g81hOhGXALhxWOfx1vOQBa.jpg');
+	background-size: cover;
+	padding:20px;
+}
+section{
+	display:flex;
+	justify-content:space-between;
+    color:white;
+	background-color:#27616b;
+    padding:15px;
+    margin-top:-5px;
+	font-size:25;
+}
+.navi ul li {
+display:inline-block;
+margin-right:5px;
+color:white;
+font-size:18;
+position:relative;
+list-style:none;
+}
+.navi ul li:hover{
+	background-color:#cee9eb;
+	color:black;
+}
+.navi ul li a {
+	text-decoration:none;
+	color:white;
+}
+.navi ul li a:hover{
+	color:black;
+}
+.navi ul ul {
+position:absolute;
+display:none;
+z-index: 1;
+}
+.navi ul li:hover > ul{
+display:block;
+text-decoration:none;
+}
+.navi ul ul li{
+font-size:15;
+width:200px;
+display:block;
+position:relative;
+}
+.navi ul ul li a{
+ display:block;
+ color:black;
+ background-color:lightblue;
+ text-decoration:none;
+ padding:5px;
+
+}
+.navi ul ul li a:hover{
+	background-color:white;
+}
+input[type=text]:focus
+ {
+         border:5px solid lightblue;
+         box-shadow:10px 10px 10px black;
+         color: blue;
+         width:180px;
+ }
+  input[type=button]:focus
+ {
+         border:2px solid blue;
+         box-shadow:10px 10px 10px black;
+         color: blue;
+         width:60px;
+ }
+
+
+
+aside{
+	width:70%;
+	float:left;
+	}
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin-left: 180px;
+}
+.mySlides img{
+	width:600px;
+	height:500px;
+}
+.text {
+  color: black;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: black;
+  font-size:15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+.mySlides{
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+article {
+	width:30%;
+    float:right;
+	}
+	
+.flash{
+	width:300px;
+	height:200px;
+	overflow:hidden;
+	margin-left:50px;
+}
+.company{
+	text-align:center;
+	color:white;
+	background-image: url('https://t4.ftcdn.net/jpg/04/95/28/65/360_F_495286577_rpsT2Shmr6g81hOhGXALhxWOfx1vOQBa.jpg');
+	background-size: cover;
+	padding:20px;
+}
+marquee{
+	height:200px;
+}
+
+
+
+.Details{
+	margin-left:25px;
+}
+
+.Details h1{
+	font-size:25px;
+	color:#fac802;
+	padding:20 20 20 0px;
+}
+table td{
+	padding: 10px;
+  text-align: center;
+  font-size:20px;
+  background-color:grey;
+  color:white;
+  border-radius:5px;
+}
+table td:hover{
+	color:black;
+}
+.Description{
+	clear:both;
+}
+.Description h1{
+	font-size:25px;
+	color:#fac802;
+	padding:20 20 10 0px;
+	margin-left:20px;
+}
+.Description p {
+	font-size:20px;
+	margin-left:100px;
+}
+footer{
+	background-color:#543f3f;
+	color:white;
+	text-align:center;
+	padding:10px;
+	display:flex;
+	justify-content:space-between;
+}
+
+@media screen and (max-width: 500px) {
+	.layout{
+	width:100%;	
+	}
+	
+	header{
+		width:100%;
+		text-align:center;
+		font-size: 11px;
+	}
+	section h1{
+		font-size: 18px;
+	}
+	.navi ul li{
+		font-size: 12px;
+	}
+	.navi ul li ul li{
+		font-size: 10px;
+		width:100px;
+	}
+	input[type=text]{
+		width:60px;
+		font-size:10px;
+	}
+	input[type=button]{
+		width:50px;
+		font-size:10px;
+	}
+	
+	aside{
+		float:left;
+		width:50%;
+	}
+	.slideshow-container{
+		margin-left:10px;
+	}
+	
+
+   .numbertext {
+    color: black;
+    font-size: 15px;
+    padding: 4px 6px;
+    position: absolute;
+    top: 0;
+}
+  .text{
+	  font-size: 15px;
+}
+.mySlides img{
+	width:15rem;
+	height:25rem;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  margin-left:-5px;
+  margin-bottom:10px;
+}
+
+
+article {
+		width:50%;
+		float:right;
+	}
+.flash{
+		width:160px;
+		font-size:10px;
+		margin-right:5px;
+		height:120px;
+		
+	}
+.company{
+	padding:10px;
+	font-size:10px;
+}
+marquee{
+	height:100px;
+}
+.Details{
+	width:200px;
+	margin-left:40px;
+}
+.Details h1{
+	font-size:15px;
+	padding:10px;
+}
+.Details td{
+	font-size:13px;
+	width:180px;
+}
+.Description h1 {
+	font-size:20px;
+}
+.Description p {
+	font-size:15px;
+	margin-left:20px;
+}
+footer{
+	font-size:10px;
+	padding:10px;
+}
