@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>ANDAVAR ENGINEERING INDUSTRIES</title>
+<link rel="stylesheet" href="andavarstyle.css">
+<script src="https://kit.fontawesome.com/7b633927da.js" crossorigin="anonymous"></script>
+<script>
+function searcher()
+{
+if(document.getElementById('searchhere').value!="")
+  { 
+  window.open("https://www.google.com/");
+   return false;
+  }
+ else
+  {
+ alert("Fill out Search box.");
+ document.getElementById('searchhere').focus();
+  }
+}
+
+</script>
+</head>
+<body>
+<div class="layout">
+<header>
+<h1>ANDAVAR ENGINEERING INDUSTRIES</h1>
+</header>
+<section>
+<h1><b>valve projects<b></h1>
+<div class="navi">
+<nav>
+<ul>
+<li><a href="myproject.html">HOME</a></li>
+ <li>PRODUCTS
+   <ul>
+     <li><a href="#">Ball Valve</a></li>
+     <li><a href="#">Gate Valve</a></li>
+     <li><a href="#">Globe Valve</a></li>
+   </ul></li>
+ <li>SERVICES
+   <ul>
+     <li><a href="#">Subscription</a></li>
+     <li><a href="#">Terms</a></li>
+	 <li><a href="#">Assurity</a></li>
+   </ul></li>
+ <li>CONTACT
+  <ul>
+     <li><a href="#">Address</a></li>
+	 <li><a href="#">Contact Form</a></li>
+     <li><a href="file:///C:/xampp/htdocs/Php/form%20%20javascript/formvalid.htm">Career</a></li>
+     <li><a href="#">Electronic Support</a></li>
+  </ul></li>
+ <li><a href="#">About us</a></li>
+ <li style="float: right; margin-top: 8px;" ><input type="text" placeholder="Search here..." id="searchhere" required><input type="button" placeholder="search" value="Search" onclick="searcher()"></li>
+</ul></nav>
+</div>
+</section>
+
+
+<aside>
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <div class="numbertext">1 / 4</div>
+  <img src="projectcss/images/valvepipe.jpg">
+  <div class="text">valuepipe</div>
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">2 / 4</div>
+  <img src="projectcss/images/istockphoto.jpg">
+  <div class="text">istock</div>
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">3 / 4</div>
+  <img src="projectcss/images/ballvalve.png" >
+  <div class="text">Ballvalve</div>
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">4 / 4</div>
+  <img src="projectcss/images/diaphragm.jpg">
+  <div class="text">Diaphragm</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+</aside>
+
+<article>
+<div class="flash">
+<div class="company"><center>About Company</center></div>
+			<marquee direction="up" onmouseover="this.stop()" onmouseout="this.start()">
+    Control Valve Considerations.<br><br>
+	As processes evolve and increase in complexity so does the need for more advanced process controls, 
+	including the control valve. <br><br>
+	Engineers and operators are constantly looking for solutions that optimize processes toward efficient production, reliable throughput and increased revenue.<br><br> 
+	Engineers must also evaluate the costs of upgrading or automating their operations to ensure their investment will see meaningful returns.<br><br>
+	Relative to the industries where thermoplastics are often specified and excel, best practices include new technologies, comprehensive control schemes and an increasingly high standard for accurate flow control.<br><br>
+	The relationship between DP and flow rate through a valve is expressed by a flow coefficient (Cv).<br><br>
+	Cv is defined as the number of gallons per minute (gpm) of flow that will pass through a fully open valve at 60 F with a DP of 1 pound per square inch (psi).<br><br>
+	</marquee>
+</div>
+<div class="Details">
+
+<table>
+<th><h1>Additional Company Details</h1></th>
+<tr><td><b>COMPANY SECTOR</b></td></tr>
+<tr><td><b>COMPANY ESTABLISH</b></td></tr>
+<tr><td><b>TURNOVER</b></td></tr>
+<tr><td><b>OWNERSHIP</b></td></tr>
+<tr><td><b>LEGAL STATUS</b></td></tr>
+<tr><td><b>SELLER STATUS</b></td></tr>
+</table>
+</div><br>
+</article>
+
+<div class="Description" >
+<h1>Description</h1>
+<p>High Pressure Bypass Valves for Thermal power plants.</p>
+</div>
+
+
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<br>
+<footer>
+<h6>copyrights <i class="far fa-copyright"></i></h6>
+<h3>
+<i class="fab fa-facebook"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i></h3>
+</footer>
+
+</div>
+</body>
+</html>
