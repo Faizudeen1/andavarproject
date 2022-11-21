@@ -224,10 +224,10 @@ footer{
 		font-size: 18px;
 	}
 	.navi ul li{
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.navi ul li ul li{
-		font-size: 10px;
+		font-size: 9px;
 		width:100px;
 	}
 	input[type=text]{
@@ -259,7 +259,7 @@ footer{
 	  font-size: 15px;
 }
 .mySlides img{
-	width:15rem;
+	width:12rem;
 	height:25rem;
 }
 .dot {
