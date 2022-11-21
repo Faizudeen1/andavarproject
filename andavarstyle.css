@@ -273,7 +273,7 @@ footer{
 article {
 		width:50%;
 		float:right;
-	        margin-left:15px;
+	        margin-left:-15px;
 	}
 .flash{
 		width:160px;
