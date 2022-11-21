@@ -278,7 +278,7 @@ article {
 		width:140px;
 		font-size:10px;
 		height:120px;
-		margin-right:5px;
+		margin-left:5px;
 	}
 .company{
 	padding:10px;
@@ -289,7 +289,7 @@ marquee{
 }
 .Details{
 	width:140px;
-	margin-right:0px;
+	margin-left:5px;
 }
 .Details h1{
 	font-size:13px;
