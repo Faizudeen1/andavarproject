@@ -278,7 +278,7 @@ article {
 		width:140px;
 		font-size:10px;
 		height:120px;
-		
+		margin-right:5px;
 	}
 .company{
 	padding:10px;
@@ -288,7 +288,7 @@ marquee{
 	height:100px;
 }
 .Details{
-	width:130px;
+	width:140px;
 	margin-right:0px;
 }
 .Details h1{
@@ -297,7 +297,7 @@ marquee{
 }
 .Details td{
 	font-size:12px;
-	width:130px;
+	width:140px;
 }
 .Description h1 {
 	font-size:20px;
