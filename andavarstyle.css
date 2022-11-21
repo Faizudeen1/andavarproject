@@ -273,13 +273,12 @@ footer{
 article {
 		width:50%;
 		float:right;
-	        margin-right:0px;
 	}
 .flash{
 		width:140px;
 		font-size:10px;
 		height:120px;
-		margin-left:5px;
+		margin-left:15px;
 	}
 .company{
 	padding:10px;
@@ -290,7 +289,7 @@ marquee{
 }
 .Details{
 	width:140px;
-	margin-left:5px;
+	margin-left:15px;
 }
 .Details h1{
 	font-size:13px;
