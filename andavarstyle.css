@@ -241,7 +241,7 @@ footer{
 	
 	aside{
 		float:left;
-		width:45%;
+		width:50%;
 	}
 	.slideshow-container{
 		margin-left:10px;
@@ -271,7 +271,7 @@ footer{
 
 
 article {
-		width:55%;
+		width:50%;
 		float:right;
 	}
 .flash{
@@ -288,7 +288,7 @@ marquee{
 	height:100px;
 }
 .Details{
-	width:15px;
+	width:130px;
 	margin-right:0px;
 }
 .Details h1{
