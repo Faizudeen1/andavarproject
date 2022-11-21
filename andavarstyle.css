@@ -289,7 +289,7 @@ marquee{
 }
 .Details{
 	width:180px;
-	margin-left:20px;
+	margin-right:10px;
 }
 .Details h1{
 	font-size:15px;
@@ -304,7 +304,7 @@ marquee{
 }
 .Description p {
 	font-size:15px;
-	margin-right:20px;
+	margin-left:20px;
 }
 footer{
 	font-size:10px;
