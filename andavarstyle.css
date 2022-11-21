@@ -290,7 +290,7 @@ marquee{
 }
 .Details{
 	width:180px;
-	
+	margin-left:0px;
 }
 .Details h1{
 	font-size:15px;
