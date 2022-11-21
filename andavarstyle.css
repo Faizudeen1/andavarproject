@@ -277,7 +277,7 @@ article {
 .flash{
 		width:150px;
 		font-size:10px;
-		margin-right:5px;
+		margin-left:5px;
 		height:120px;
 		
 	}
@@ -290,7 +290,7 @@ marquee{
 }
 .Details{
 	width:200px;
-	margin-left:40px;
+	margin-left:0px;
 }
 .Details h1{
 	font-size:15px;
