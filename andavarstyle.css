@@ -289,15 +289,15 @@ marquee{
 }
 .Details{
 	width:15px;
-	margin-right:5px;
+	margin-right:0px;
 }
 .Details h1{
-	font-size:15px;
-	padding:7px;
+	font-size:13px;
+	padding:5px;
 }
 .Details td{
-	font-size:13px;
-	width:150px;
+	font-size:12px;
+	width:130px;
 }
 .Description h1 {
 	font-size:20px;
