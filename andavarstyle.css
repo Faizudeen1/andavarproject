@@ -278,7 +278,7 @@ article {
 		width:140px;
 		font-size:10px;
 		height:120px;
-	        
+	        overflow:hidden;
 	}
 .company{
 	padding:10px;
